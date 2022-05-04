@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Woodford Reserve Distillery</title>
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        color: rgb(32, 32, 32);
+        background-color: rgb(236, 232, 228);
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        font-weight: 800;
+        margin: 10px 0;
+        padding: 0;
+        color: rgb(0, 0, 0);
+      }
+
+      h2 {
+        font-size: 1.5rem;
+        font-weight: 800;
+        margin: 0;
+        padding: 0;
+        color: rgb(75, 75, 75);
+      }
+
+      p {
+        font-size: 1.1rem;
+        font-weight: 400;
+        margin: 0 0 15px 0;
+        padding: 0;
+      }
+
+      a:link,
+      a:visited {
+        color: rgb(12, 73, 34);
+      }
+
+      a:hover {
+        color: rgb(86, 86, 86);
+        text-decoration: none;
+      }
+
+      section {
+        width: 80%;
+        margin: 0 auto;
+      }
+
+      footer {
+        width: 80%;
+        margin: 0 auto;
+        color: rgb(100, 100, 100);
+      }
+    </style>
+  </head>
+
+  <body>
+    <section>
+      <h1>Lets Explore The Campus of The Woodford Reserve Bourbon Distillery!</h1>
+      <h2>      
+           The Woodford Reserve Bourbon Distillery was created in 1812 in Woodford County Kentucky. Before it became known as the
+        Woodford Reserve Distillery, it was formely known as the Old Oscar Pepper Distillery and later the Labrot & Graham
+        Distillery. It is about eight miles from the town of Versailles in north-central Kentucky, off U.S. Route 60 between
+        Interstate 64 and Versailles. What's unique about this distillery is that it is very small distillery, yet produces one
+        of the highest rated bourbons in the world and is now the main sponsor of the Kentucky Derby!
+        The goal of this project is to create a few different maps to better understand the vegetaion of the campus, along with
+        the topography of the area, and the campus's potential for solar PV installation!
+    </h2>
+      <iframe
+        title="Mapbox area of interest"
+        width="100%"
+        height="576"
+        src=""
+        frameborder="0"
+        allow="fullscreen"
+        allowfullscreen="true"
+        mozallowfullscreen="true"
+        webkitallowfullscreen="true"
+      >
+    <p>
+        The maps I have created for this project serve as a more detailed look at the Woodford Reserve Bourbon Distillery
+        campus. The first map shows the topography of the campus by showing 10ft contour lines. The second map shows a more
+        detailed look at the vegetation present on the Woodford Reserve campus. The last map is a solar irradiation map that shows the potential for solar PV
+        installation througout the campus. The areas on the buildings that are shown in a brighter yellow/orangish color are the
+        areas that have the highest intensity of solar irradiation with the least amount of coverage from shading. Hope you
+        enjoy my work!
+    </p>
+      </iframe>
+      <p>This map shows the topography of the Woodford Reserve Bourbon Distillery usng 10ft contour lines <a href="https://api.mapbox.com/styles/v1/rsmith10101/cl2kqq98a001714k62xpjd79p.html?title=copy&access_token=pk.eyJ1IjoicnNtaXRoMTAxMDEiLCJhIjoiY2wyNmFjbDZyMDRvNTNkbzhjcmwwbDVwMCJ9.2dwepCJlObOJueHSLI8OLQ&zoomwheel=true&fresh=true#13.98/38.11553/-84.80821/0/21">Enlarge map</a></p>
+
+    <iframe width='100%' height='400px'
+        src="https://api.mapbox.com/styles/v1/rsmith10101/cl2kqq98a001714k62xpjd79p.html?title=false&access_token=pk.eyJ1IjoicnNtaXRoMTAxMDEiLCJhIjoiY2wyNmFjbDZyMDRvNTNkbzhjcmwwbDVwMCJ9.2dwepCJlObOJueHSLI8OLQ&zoomwheel=false#13.98/38.11553/-84.80821/0/21"
+        title="Woodford Distillery" style="border:none;"></iframe>
+
+      <!-- 💡💡💡 Cesium map: paste embed code below -->
+
+      </iframe>
+
+    <p>This map shows the vegetation of the distillery campus. The areas in the lighter color green are grassy areas or open
+        fields, the darker green areas are trees or areas of dense vegetation, and the lighter tan colored areas are
+        buildings or roadways.</p>
+
+      <img src="Woodford-map.jpg" alt="Woodford Reserve Distillery Map" width="100%" />
+      
+
+      <img src="map2.jpg" alt="Something about this map" width="100%" />
+      <p>Caption for map2</p>
+    </section>
+    <footer>
+      <hr />
+      <p>
+        Page and visualizations created by Ryan Smith for GEO 409, Department of
+        Geography, University of Kentucky. Spring 2022.
+      </p>
+      <p>
+        Visualizations created from lidar data provided by
+        <a href="https://kyfromabove.ky.gov/">KyFromAbove</a> in ArcGIS Pro
+        and Blender. Additional sources of information from <a href="https://en.wikipedia.org/wiki/Woodford_Reserve">name of source</a>, May 4th, 2022.
+      </p>
+    </footer>
+  </body>
+</html>
